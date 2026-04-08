@@ -4,8 +4,7 @@ import numpy as np
 
 # تحميل الموديل
 model = joblib.load("model.pkl")
-scaler = joblib.load("scaler.pkl")
-
+scaler = joblib.load("scalar.pkl")
 st.title("Churn Prediction App")
 
 st.divider()
