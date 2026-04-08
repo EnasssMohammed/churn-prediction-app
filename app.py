@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# تحميل الموديل
+#
 model = joblib.load("model.pkl")
 scaler = joblib.load("scalar.pkl")
 st.title("Churn Prediction App")
